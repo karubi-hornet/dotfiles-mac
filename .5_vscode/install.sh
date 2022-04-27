@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # codeコマンドがなければVSCodeをインストール
 if ! (type code > /dev/null 2>&1); then

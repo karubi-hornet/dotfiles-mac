@@ -1,7 +1,7 @@
 Dotfiles for Mac
 ====
 
-thanks https://github.com/zzzmisa/dotfiles-mac/
+https://github.com/takameron/dotfiles-mac
 
 ## 実行されること
 * homebrewを用いたパッケージのインストール
@@ -13,9 +13,7 @@ thanks https://github.com/zzzmisa/dotfiles-mac/
 * macOS Monterey 12.3
 
 ## 事前準備
-1. App Storeにサインイン
-2. `xcode-select --install`コマンドを実行し、Command line tools for Xcodeをインストール
-3. このリポジトリをclone
+1. このリポジトリをclone
 
 ## 使い方
 1. `dotfiles-mac`ディレクトリに移動
@@ -23,9 +21,9 @@ thanks https://github.com/zzzmisa/dotfiles-mac/
     cd dotfiles-mac
     ```
 
-2. ディレクトリ直下の`install.sh`を実行すると、下層ディレクトリの`install.sh`が実行される
+2. ディレクトリ直下で`make`を実行すると、、セットアップが実行される。
     ```
-    sh install.sh
+    make
     ```
 
 ## 実行後

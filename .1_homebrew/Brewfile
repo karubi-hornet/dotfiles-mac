@@ -24,9 +24,12 @@ brew "tree"
 brew "wget"
 
 cask "adguard"
+cask "alfred"
 # cask "authy"
 # cask "blackhole-2ch"
+cask "cheatsheet"
 # cask "clip-studio-paint"
+cask "docker"
 cask "firefox"
 # cask "gnucash"
 cask "google-chrome"
@@ -39,23 +42,27 @@ cask "iterm2"
 # cask "notion"
 cask "openinterminal"
 cask "rectangle"
+cask "skitch"
 cask "slack"
 cask "spotify"
+cask "the-unarchiver"
 # cask "thunderbird"
 cask "visual-studio-code"
 # cask "vmware-fusion"
 cask "zoom"
+
 # drivers
-cask "wacom-tablet"
-cask "yubico-yubikey-manager"
+# cask "wacom-tablet"
+# cask "yubico-yubikey-manager"
 # fonts
 cask "font-latin-modern"
 cask "font-latin-modern-math"
 
 # mas "Bitwarden", id: 1352778147
+mas "Display Menu", id: 549083868
 mas "Keepa - Price Tracker", id: 1533805339
 # mas "Microsoft To Do",id: 1274495053
-mas "Mia Translate", id: 1500605326
+# mas "Mia Translate", id: 1500605326
 mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541

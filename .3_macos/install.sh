@@ -1,14 +1,38 @@
 #!/bin/sh
 
-# --- Finder ---
-# 隠しファイルを表示
+if [ "$(uname)" != "Darwin" ] ; then
+	echo "Not macOS!"
+	exit 1
+fi
+
+# ====================
+#
+# Base
+#
+# ====================
+# Disable auto-capitalization
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# ====================
+#
+# Finder
+#
+# ====================
+# Disable animation
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# Show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
-# すべての拡張子のファイルを表示
+
+# Show files with all extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-# ステータスバーを表示
+
+# Display the status bar
 defaults write com.apple.finder ShowStatusBar -bool true
-# パスバーを表示
+
+# Display the path bar
 defaults write com.apple.finder ShowPathbar -bool true
+
 # ドライブをデスクトップに表示
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -25,17 +49,26 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # ファイアーウォールをオン
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
-# --- Dock ---
+# ====================
+#
+# Dock
+#
+# ====================
+
 # “自動的に非表示”をオン
 defaults write com.apple.dock autohide -bool true
 # 最近使ったアプリケーションを非表示
 defaults write com.apple.dock show-recents -bool false
+
+# Disable animation at application launch
+defaults write com.apple.dock launchanim -bool false
+
 killall Dock
 
-# --- SystemUIServer関係 ---
-# 時計で日付を表示（例：9月20日(木) 23:00）
+# --- SystemUIServer ---
+# Display date, day, and time in the menu bar
 defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d HH:mm:ss'
-# バッテリーの割合（%）を表示
+# Display battery level in the menu bar
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # スクリーンショットのドロップシャドウを付けない
 defaults write com.apple.screencapture disable-shadow -bool true
