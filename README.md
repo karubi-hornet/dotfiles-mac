@@ -1,7 +1,7 @@
 Dotfiles for Mac
 ====
 
-https://github.com/takameron/dotfiles-mac
+Thanks https://github.com/takameron/dotfiles-mac
 
 ## 実行されること
 * homebrewを用いたパッケージのインストール
