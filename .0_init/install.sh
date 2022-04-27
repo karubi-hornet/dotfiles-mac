@@ -6,7 +6,7 @@ if [ "$(uname)" != "Darwin" ] ; then
 fi
 
 # Set bash
-if ! (echo $SHELL | grep "zsh" > /dev/null 2>&1 ) ; then
+if ! (echo "$SHELL" | grep "zsh" > /dev/null 2>&1 ) ; then
 	chsh -s /bin/zsh
 fi
 
