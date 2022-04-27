@@ -52,8 +52,8 @@ cask "visual-studio-code"
 cask "zoom"
 
 # drivers
-# cask "wacom-tablet"
-# cask "yubico-yubikey-manager"
+
+
 # fonts
 cask "font-latin-modern"
 cask "font-latin-modern-math"
@@ -61,8 +61,4 @@ cask "font-latin-modern-math"
 # mas "Bitwarden", id: 1352778147
 mas "Display Menu", id: 549083868
 mas "Keepa - Price Tracker", id: 1533805339
-# mas "Microsoft To Do",id: 1274495053
-# mas "Mia Translate", id: 1500605326
 mas "Keynote", id: 409183694
-# mas "Numbers", id: 409203825
-# mas "Pages", id: 409201541

@@ -10,7 +10,9 @@ if ! (type asdf > /dev/null 2>&1); then
 fi
 
 # add to shell
-echo ". $(brew --prefix asdf)/libexec/asdf.sh" >> ~/.zshrc
+if ! (grep libexec/asdf.sh ~/.zshrc > /dev/null 2>&1) ; then
+  echo ". $(brew --prefix asdf)/libexec/asdf.sh" >> ~/.zshrc
+fi
 
 # Default Packages
 basename -a "$PWD"/2_asdf/.default-* | xargs -I{} ln -sfv "$PWD"/2_asdf/{} ~/{}
@@ -35,8 +37,13 @@ asdf global python "$(asdf list python | tail -1 | sed -e 's/ //g')"
 
 # === asdf-ruby ===
 # Requirements(optional, but recommended)
-brew install openssl readline
-echo "export RUBY_CONFIGURE_OPTS=\"--with-openssl-dir=\"$(brew --prefix openssl@1.1)\"\"" >> ~/.zshrc
+if ! (brew list openssl) ; then
+  if ! (brew list readline) ; then
+    brew install openssl readline
+    echo "export RUBY_CONFIGURE_OPTS=\"--with-openssl-dir=\"$(brew --prefix openssl@1.1)\"\"" >> ~/.zshrc
+  fi
+fi
+
 # Install plugin
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 # Install Ruby
