@@ -15,6 +15,7 @@ ln -sfv "$PWD"/5_vscode/settings.json ~/Library/Application\ Support/Code/User/
 pkglist=(
   ms-ceintl.vscode-language-pack-ja	  # Japanese Language Pack for Visual Studio Code
   ms-vscode-remote.remote-ssh-edit	  # Remote - SSH: Editing Configuration Files
+  ms-vscode-remote.remote-ssh
   ms-python.python
   eamodio.gitlens
   hediet.vscode-drawio
