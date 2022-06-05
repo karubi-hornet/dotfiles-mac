@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "bb67374242cb83aad8b540d5db54e9ea6fb2de99"
+        "revision": "1d363a9f214a732080e11d214e5df8e0f9974160"
       },
       "homebrew/cask-drivers": {
         "revision": "46952e87294cc8c8bf8fa62c0734daa3a24a2c27"
       },
       "homebrew/cask-fonts": {
-        "revision": "9aa9acd87f84e64be516a106f2ba6eb9bd1d2c70"
+        "revision": "bbe87daef350b1e6d833d83180e7af0a005a0e88"
       }
     },
     "brew": {
@@ -804,7 +804,7 @@
         }
       },
       "openinterminal": {
-        "version": "2.3.5",
+        "version": "2.3.6",
         "options": {
           "full_name": "openinterminal"
         }
@@ -874,6 +874,18 @@
         "options": {
           "full_name": "powershell"
         }
+      },
+      "genymotion": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "genymotion"
+        }
+      },
+      "virtualbox": {
+        "version": "6.1.34,150636",
+        "options": {
+          "full_name": "virtualbox"
+        }
       }
     },
     "mas": {
@@ -896,7 +908,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.4.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "51113f3ff5e6837bfe67b4059d2d861264e7bbc8",
+        "Homebrew/homebrew-core": "6685b8c19702d32c5afa90f15972ebd363777adf",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "11.6.5"

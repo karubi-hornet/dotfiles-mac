@@ -16,6 +16,7 @@ brew "qpdf"
 brew "hugo"
 brew "imagemagick"
 brew "mas"
+brew "noxappplayer"
 brew "pinentry-mac"
 brew "pixz"
 brew "shellcheck"
@@ -37,6 +38,8 @@ cask "google-japanese-ime"
 # cask "gpg-suite-no-mail"
 # cask "inkscape"
 cask "iterm2"
+cask "libreoffice"
+cask "libreoffice-language-pack"
 # cask "linphone"
 # cask "microsoft-office"
 cask "notion"
@@ -61,6 +64,12 @@ cask "font-latin-modern"
 cask "font-latin-modern-math"
 
 # mas "Bitwarden", id: 1352778147
+mas 'Bandwidth+', id: 490461369
 mas "Display Menu", id: 549083868
 mas "Keepa - Price Tracker", id: 1533805339
 mas "Keynote", id: 409183694
+mas 'Kindle', id: 405399194
+mas 'LINE', id: 539883307
+mas "TweetDeck", id: 485812721
+mas "Xcode", id: 497799835
+
