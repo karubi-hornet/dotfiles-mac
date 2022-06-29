@@ -16,7 +16,7 @@ brew "qpdf"
 brew "hugo"
 brew "imagemagick"
 brew "mas"
-brew "noxappplayer"
+# brew "noxappplayer"
 brew "pinentry-mac"
 brew "pixz"
 brew "shellcheck"
@@ -72,4 +72,5 @@ mas 'Kindle', id: 405399194
 mas 'LINE', id: 539883307
 mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
+mas "Termius", id: 1176074088
 
