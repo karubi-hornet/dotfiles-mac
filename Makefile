@@ -10,8 +10,8 @@ homebrew:
 	.1_homebrew/install.sh
 
 # Install macOS applications using asdf.
-asdf:
-	.2_asdf/install.sh
+#asdf:
+#	.2_asdf/install.sh
 
 # Set macOS system preferences.
 macos:
