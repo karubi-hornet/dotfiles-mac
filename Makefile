@@ -1,5 +1,5 @@
 # Do everything.
-all: init homebrew asdf macos vscode 
+all: init homebrew macos vscode 
 
 # Set initial preference.
 init:
