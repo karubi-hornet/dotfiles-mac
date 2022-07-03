@@ -70,10 +70,10 @@ mas "Bandwidth+", id: 490461369
 mas "Display Menu", id: 549083868
 mas "Keepa - Price Tracker", id: 1533805339
 mas "Keynote", id: 409183694
-mas 'Kindle', id: 405399194
+# mas 'Kindle', id: 405399194
 mas 'LINE', id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Termius", id: 1176074088
-mas "TweetDeck", id: 485812721
+# mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
 mas "VMware Remote Console", id: 1230249825
