@@ -15,7 +15,7 @@ if ! (grep libexec/asdf.sh ~/.zshrc > /dev/null 2>&1) ; then
 fi
 
 # Default Packages
-basename -a "$PWD"/2_asdf/.default-* | xargs -I{} ln -sfv "$PWD"/2_asdf/{} ~/{}
+basename -a "$PWD"/.2_asdf/.default-* | xargs -I{} ln -sfv "$PWD"/.2_asdf/{} ~/{}
 
 # === asdf-nodejs ===
 # Requirements

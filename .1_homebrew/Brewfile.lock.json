@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "ef8bc2e5eac4c7a3a597e9e1c338dc00c89e07ca"
+        "revision": "a362886397dc886ae6754b910b299d62223972fb"
       },
       "homebrew/cask-drivers": {
         "revision": "d70fed69cee2bf85175424601986528e210976a3"
