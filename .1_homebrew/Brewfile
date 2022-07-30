@@ -15,6 +15,7 @@ brew "gpg"
 brew "qpdf"
 brew "hugo"
 brew "imagemagick"
+brew "jq"
 brew "mas"
 # brew "noxappplayer"
 brew "pinentry-mac"
@@ -28,6 +29,7 @@ brew "wimlib"
 
 cask "adguard"
 cask "alfred"
+cask "android-file-transfer"
 # cask "authy"
 # cask "blackhole-2ch"
 cask "cheatsheet"
@@ -74,6 +76,6 @@ mas "Keynote", id: 409183694
 mas 'LINE', id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Termius", id: 1176074088
-# mas "TweetDeck", id: 485812721
+mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
 mas "VMware Remote Console", id: 1230249825

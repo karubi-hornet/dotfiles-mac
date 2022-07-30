@@ -56,5 +56,18 @@ function git-prompt {
 PROMPT='`git-prompt`%{$fg_bold[cyan]%}[%~]%{$reset_color%}'
 setopt prompt_subst
 
+# yarn
+export PATH="$PATH:`yarn global bin`"
+
 . $(brew --prefix asdf)/libexec/asdf.sh
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir="""

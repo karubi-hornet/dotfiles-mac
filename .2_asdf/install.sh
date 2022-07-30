@@ -23,10 +23,16 @@ brew install coreutils gpg gawk
 # Install plugin
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 # Import the Node.js release team's OpenPGP keys to main keyring
-bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'
+# bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'
 # Install Node.js
 asdf install nodejs latest
 asdf global nodejs "$(asdf list nodejs | tail -1 | sed -e 's/ //g')"
+
+# yarn
+asdf plugin add yarn
+asdf install yarn latest
+asdf global yarn latest
+export 'PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
 
 # === asdf-python ===
 # Install plugin
