@@ -48,12 +48,19 @@ if ! (brew list openssl) ; then
     brew install openssl readline
     echo "export RUBY_CONFIGURE_OPTS=\"--with-openssl-dir=\"$(brew --prefix openssl@1.1)\"\"" >> ~/.zshrc
   fi
-fi
 
 # Install plugin
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 # Install Ruby
 asdf install ruby latest
 asdf global ruby "$(asdf list ruby | tail -1 | sed -e 's/ //g')"
+
+# === asdf-java
+# if ! (grep set-java-home.zsh ~/.zshrc > /dev/null 2>&1) ; then
+#   asdf plugin-add java https://github.com/halcyon/asdf-java.git
+#   asdf install java "$(asdf list java | grep -iE 'adoptopenjdk-[0-9]' | grep -v beta | tail -1)"
+#   asdf global java "$(asdf list java | grep -iE 'adoptopenjdk-[0-9]' | grep -v beta | tail -1)"
+#   echo ". ~/.asdf/plugins/java/set-java-home.zsh" >> ~/.zshrc
+# fi
 
 echo "👍 asdf install is done!"
