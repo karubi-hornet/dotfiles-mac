@@ -32,7 +32,7 @@ asdf global nodejs "$(asdf list nodejs | tail -1 | sed -e 's/ //g')"
 asdf plugin add yarn
 asdf install yarn latest
 asdf global yarn latest
-export 'PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
+echo "export PATH=$PATH:`yarn global bin`" >> ~/.zshrc
 
 # === asdf-python ===
 # Install plugin
@@ -48,6 +48,7 @@ if ! (brew list openssl) ; then
     brew install openssl readline
     echo "export RUBY_CONFIGURE_OPTS=\"--with-openssl-dir=\"$(brew --prefix openssl@1.1)\"\"" >> ~/.zshrc
   fi
+fi
 
 # Install plugin
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git

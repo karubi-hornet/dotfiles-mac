@@ -57,8 +57,12 @@ PROMPT='`git-prompt`%{$fg_bold[cyan]%}[%~]%{$reset_color%}'
 setopt prompt_subst
 
 # yarn
-export PATH="$PATH:`yarn global bin`"
+# export PATH="$PATH:`yarn global bin`"
 
 . $(brew --prefix asdf)/libexec/asdf.sh
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-. ~/.asdf/plugins/java/set-java-home.zsh
+. ~/.asdf/plugins/java/set-java-home.zshexport PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/18.7.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/18.7.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
