@@ -66,3 +66,4 @@ export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.l
 export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
 export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
 export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
