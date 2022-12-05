@@ -13,6 +13,8 @@ ln -sfv "$PWD"/5_vscode/settings.json ~/Library/Application\ Support/Code/User/
 
 # list of plugins
 pkglist=(
+  GitHub.remotehub
+  GitHub.vscode-pull-request-github
   ms-ceintl.vscode-language-pack-ja	  # Japanese Language Pack for Visual Studio Code
   ms-vscode-remote.remote-ssh-edit	  # Remote - SSH: Editing Configuration Files
   ms-vscode-remote.remote-ssh

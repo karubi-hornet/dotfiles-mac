@@ -25,7 +25,7 @@ brew "pinentry-mac"
 brew "pixz"
 brew "python"
 brew "shellcheck"
-brew "termius"
+# brew "termius"
 brew "tree"
 brew "wget"
 brew "wimlib"
@@ -39,6 +39,7 @@ cask "android-file-transfer"
 cask "cheatsheet"
 # cask "clip-studio-paint"
 cask "dbeaver-community"
+cask "discord"
 cask "docker"
 cask "eclipse-java"
 cask "firefox"
@@ -48,13 +49,13 @@ cask "google-drive"
 cask "google-japanese-ime"
 # cask "gpg-suite-no-mail"
 # cask "inkscape"
-cask "iterm2"
+# cask "iterm2"
 cask "Itsycal"
 cask "libreoffice"
 cask "libreoffice-language-pack"
 cask "maccy"
 # cask "linphone"
-# cask "microsoft-office"
+cask "microsoft-office"
 cask "notion"
 cask "openinterminal"
 cask "powershell"
@@ -63,14 +64,16 @@ cask "scroll-reverser"
 # cask "shiftit"
 cask "skitch"
 cask "slack"
-cask "splashtop-business"
+# cask "splashtop-business"
 # cask "spotify"
 cask "stats"
+cask "tabby"
 cask "the-unarchiver"
 # cask "thunderbird"
 cask "visual-studio-code"
 cask "vlc"
 # cask "vmware-fusion"
+cask "warp"
 cask "zoom"
 
 # drivers
@@ -81,14 +84,14 @@ cask "font-latin-modern"
 cask "font-latin-modern-math"
 
 mas "Bitwarden", id: 1352778147
-mas "Bandwidth+", id: 490461369
+# mas "Bandwidth+", id: 490461369
 mas "Display Menu", id: 549083868
 mas "Keepa - Price Tracker", id: 1533805339
 mas "Keynote", id: 409183694
 # mas 'Kindle', id: 405399194
 mas 'LINE', id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Termius", id: 1176074088
+# mas "Termius", id: 117ll6074088
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
 mas "VMware Remote Console", id: 1230249825

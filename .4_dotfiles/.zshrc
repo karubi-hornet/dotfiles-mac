@@ -61,9 +61,12 @@ setopt prompt_subst
 
 . $(brew --prefix asdf)/libexec/asdf.sh
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-. ~/.asdf/plugins/java/set-java-home.zshexport PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/18.7.0/.npm/bin
+. ~/.asdf/plugins/java/set-java-home.zsh
 export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/18.7.0/.npm/bin
 export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
-export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
-export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
-export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin:/usr/local/bin
+export PATH=/Users/ryo/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/ryo/.local/share/zinit/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/ryo/.asdf/installs/nodejs/19.0.0/.npm/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin
