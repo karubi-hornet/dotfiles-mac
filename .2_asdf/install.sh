@@ -32,7 +32,9 @@ asdf global nodejs "$(asdf list nodejs | tail -1 | sed -e 's/ //g')"
 asdf plugin add yarn
 asdf install yarn latest
 asdf global yarn latest
-echo "export PATH=$PATH:`yarn global bin`" >> ~/.zshrc
+if ! (grep `yarn global bin` ~/.zshrc > /dev/null 2>&1) ; then
+  echo "export PATH=$PATH:`yarn global bin`" >> ~/.zshrc
+fi
 
 # === asdf-python ===
 # Install plugin
