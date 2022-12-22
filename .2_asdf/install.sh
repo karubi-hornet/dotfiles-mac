@@ -66,4 +66,10 @@ asdf global ruby "$(asdf list ruby | tail -1 | sed -e 's/ //g')"
 #   echo ". ~/.asdf/plugins/java/set-java-home.zsh" >> ~/.zshrc
 # fi
 
+# reshim for updating asdf.
+# https://zenn.dev/kyohei_saito/articles/40a13800f34d5f
+rm -rf $HOME/.asdf/shims_bk
+mv $HOME/.asdf/shims $HOME/.asdf/shims_bk
+asdf reshim
+
 echo "👍 asdf install is done!"
